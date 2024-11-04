@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">My Store</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="store.html">Store</a>
+            <a href="cart.html">Cart (<span id="cart-count">2</span>)</a>
+        </nav>
+    </header>
+    
+    <!-- Cart Section -->
+    <section class="cart-page">
+        <h1>Your Cart</h1>
+
+        <!-- Cart Items -->
+        <div class="cart-item">
+            <img src="/img/clasicc-tshirt.jpg" alt="Product 1" class="cart-item-image">
+            <div class="cart-item-details">
+                <h3>Classic T-Shirt</h3>
+                <p>Price: $15.99</p>
+                <p>Quantity: 2</p>
+                <button class="remove">Remove</button>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="/img/airpods.jpg" alt="Product 2" class="cart-item-image">
+            <div class="cart-item-details">
+                <h3>Wireless Earbuds</h3>
+                <p>Price: $59.99</p>
+                <p>Quantity: 1</p>
+                <button class="remove">Remove</button>
+            </div>
+        </div>
+
+        <!-- Total Section -->
+        <div class="cart-total">
+            <p>Total: $91.97</p>
+            <button class="checkout">Checkout</button>
+        </div>
+    </section>
+</body>
+</html>
