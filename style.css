@@ -24,6 +24,13 @@ header .logo {
     font-size: 24px;
 }
 
+.logo img {
+    width: 50px;
+border-radius: 20px;
+display: inline-block;
+justify-content: baseline;
+}
+
 header nav a {
     color: #fff;
     margin: 0 15px;
